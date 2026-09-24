@@ -1,2 +1,1 @@
-# calculator
-A calculator project
+This is a calculator project from Odin's last foundations project. 
