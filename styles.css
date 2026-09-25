@@ -1,0 +1,27 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.display {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: right;
+    min-height: 35px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.clear {
+    grid-column: 1 / 5;
+}
